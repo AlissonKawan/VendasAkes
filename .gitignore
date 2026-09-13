@@ -31,3 +31,13 @@ build/
 
 ### VS Code ###
 .vscode/
+.env
+.env.*
+!.env.example
+
+# Perfil do navegador: contém a sessão privada do Mercado Livre.
+.local/
+
+# Logs e saídas locais de diagnóstico.
+*.log
+boot_log.txt
